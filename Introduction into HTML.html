@@ -1,0 +1,93 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head>
+    <!-- Meta information about the character set being used -->
+    <meta charset="UTF-8"> 
+    <title>Title</title> 
+</head>
+<body>
+    <!-- Main heading of the page -->
+    <h1>This is a Heading</h1>
+    <!-- A paragraph with normal text -->
+    <p>Normal Text</p>
+    <!-- A paragraph with bold text -->
+    <p><strong>Fetter Text</strong></p>
+    <!-- A paragraph with italic text -->
+    <p><em>Kursiver Text</em></p>
+    -----------------------------------------------
+    <!-- An ordered (numbered) list -->
+    <ol>
+        <h4>Nummerierte Liste</h4>
+        <li>First Item</li>
+        <li>Second Item</li>
+        <li>Thired Item</li> <!-- Misspelling of "Third" as "Thired" -->
+        <li>Fourth Item</li>
+    </ol>
+    <!-- An unordered (bulleted) list -->
+    <ul>
+        <h4>Bullied Point list</h4>
+        <li>First Item</li>
+        <li>Second Item</li>
+        <li>Thired Item</li> <!-- Misspelling of "Third" as "Thired" -->
+        <li>Fourth Item</li>
+    </ul>
+    -----------------------------------------------
+    <!-- A div element containing a heading and a paragraph -->
+    <div class="">
+        <h4>Test Heading</h4>
+        <p>Test Text</p>
+    </div>
+    -----------------------------------------------
+    <!-- A paragraph containing an image -->
+    <p>
+        <h4>Image:</h4>
+        <img src="Annotation%202024-12-19%20100543.png">
+    </p>
+    -----------------------------------------------
+    <!-- A paragraph containing a hyperlink -->
+    <p>
+        <h4>Link:</h4>
+        <a href="https://www.bmw.de/de/home.html">BMW Website</a>
+    </p>
+    -----------------------------------------------
+    <!-- A form with email and password fields, and a submit button -->
+    <h4>Forms:</h4>
+    <form action="http://www.google.com" method="get">
+        <h4>Login:</h4>
+        <label for="emailtag">E-Mail:</label>
+        <input id="emailtag" type="email" name="useremail" value="Email Here">
+        <br>
+        <label for="password">Password:</label>
+        <input id="password" type="password" name="password" placeholder="password">
+        <br>
+        <input type="submit" name="Submit" value="Enter">
+    </form>
+    -----------------------------------------------
+    <!-- Another form with radio buttons, a dropdown menu, a text area, and a submit button -->
+    <form method="get">
+        <!-- Comments indicating sections to be covered -->
+        <!-- Things we will cover 
+        1. Linking Radio Buttons 
+        2. Drop-down Menus 
+        3. Text Area inputs -->
+        
+        <h3>Do you already own a dog?</h3>
+        <label for="yes">Yes:</label>
+        <input type="radio" id="yes" name="dog_choice" values="yes">
+        <label for="no">No:</label>
+        <input type="radio" id="no" name="dog_choice" values="no">
+        
+        <p>How Clean is your house?</p>
+        <select name="stars">
+            <option value="Great">3</option>
+            <option value="Good">2</option>
+            <option value="Bead">1</option> <!-- Misspelling of "Bad" as "Bead" -->
+        </select>
+        
+        <p>Any other comments?</p>
+        <textarea name="name" rows="4" cols="30"></textarea>
+        
+        <input type="submit" name="" values="Submit">
+    </form> 
+</body> 
+</html>
